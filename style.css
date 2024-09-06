@@ -184,7 +184,7 @@
 }
 
 /*---------------------------------------------------------Responsive CSS------------------------------------------------------------*/
-@media (max-width: 768px) {
+@media (max-width: 786px) {
     .container{
     width: 100%;
     height: auto;
@@ -260,7 +260,7 @@
 }
 .container .logos{
     margin-top: 80px;
-    padding-inline: 0px;
+    padding-inline: 10px;
 }
 .logos img{
     width: 90px;
@@ -302,3 +302,104 @@
     font-size: 16px;
 }
 }
+
+@media (max-width: 480px) {
+    .container{
+        width: 100%;
+        height: auto;
+        }
+        .navbar{
+        width: 100%;
+        height: 60px;
+        }
+        .navbar img{
+            width: 100px;
+        }
+        .navbar .login{
+        width: 120px;
+        } 
+        .navbar .login button{
+        display: none;
+        }
+        .login #login-btn{
+        font-size: 22px;
+        } 
+        .navbar .login .bar{
+        width: 50px;
+        height: 59px;
+        position: relative;
+        }
+        .login .bar i{
+        font-size: 30px;
+        position: absolute;
+        top: 17px;
+        left: 10px;
+        }
+    
+    /*---------------------------------------------------- */
+    .container .hero-section{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .hero-section .left{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        padding-inline: 40px;
+        padding-top: 30px;
+    }
+    .left h2{
+        font-size: 28px;
+        text-align: center;
+    }
+    .left p{
+        font-size: 17px;
+        text-align: center;
+    }
+    .left button{
+        width: 200px;
+        height: 45px;
+        font-size: 20px;
+    }
+    .hero-section .right{
+        width: 100%;
+        height: 350px;
+    }
+    .hero-section .right img{
+        width: 325px;
+        top: 40px;
+        left: 70px;
+    }
+    .container #heart{
+        display: none;
+    }
+    .container .logos{
+        display: none;
+    }
+    /*-------------------------------------------------*/
+    .container2{
+        width: 100%;
+        height: 550px;
+        padding: 20px 20px 0 20px;
+    }
+    .container2 h1{
+        font-size: 32px;
+        text-align: center;
+    }
+    .container2 #p1{
+        font-size: 16px;
+        text-align: center;
+    }
+    .container2 .para{
+        width:100%;
+    }
+    .box h4{
+        font-size: 15px;
+        text-align: center;
+    }
+    .box p{
+        font-size: 12px;
+        text-align: center;
+    }
+    }
